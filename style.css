@@ -1,0 +1,148 @@
+ body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 0;
+  height: 100%;
+  margin: 0;
+}
+
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.navbar {
+  flex: 1;
+  background: black;
+  align-items: center;
+}
+
+.navbar-nav {  
+  margin: 0 15px;
+  padding: 0px 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: "Protest Guerrilla", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3,h4 {
+  color: #333;
+  font-family: "Protest Guerrilla", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color:black;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+main{
+  font-style: italic;
+  text-align:center;
+  justify-content: center;
+  flex: 1; /* Pääsisältö täyttää jäljellä olevan tilan */
+
+}
+
+main ul{
+  list-style-position: inside; 
+  list-style-type: circle;
+
+}
+
+  .navbar-brand{
+    font-family: "Protest Guerrilla", system-ui;
+    color: black;
+    font-weight: 100;
+    font-style: normal;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+
+  }
+
+  .resized-image {
+    width: 200px; /* Aseta haluamasi leveys */
+    height: auto; /* Säilyttää kuvasuhteen */
+       
+}
+
+.table_style{
+  color: black;
+  border: 2px solid black; 
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  margin: 0 auto;
+}
+
+.card-text{
+  list-style-position: inside; 
+  border-color: black;
+  margin: 0 auto; /* Keskittää listan */
+  
+}
+
+.container{
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+
+
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.wrapper {
+  min-height: 100vh; /* Koko näkymän korkeus */
+  display: flex;
+  flex-direction: column;
+}
+
+
+
