@@ -139,7 +139,6 @@ footer {
 }
 
 .wrapper {
-  min-height: 100vh; /* Koko näkymän korkeus */
   display: flex;
   flex-direction: column;
 }
